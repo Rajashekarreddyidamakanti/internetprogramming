@@ -1,0 +1,7 @@
+import hashlib
+
+# Create an MD5 hash of the password
+password = "haneesha"
+hashed_password = hashlib.md5(password.encode()).hexdigest()
+
+print(hashed_password)
